@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="css/main.cs">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="cursor">
+        <img src="images/ghost1.gif"
+        width="125"
+        height="125">
+    </div>
+
+    <div class="arcade">
+        <img src="images/arcade.gif"
+        width="300"
+        height="300"
+        style="position:fixed; right:0px; bottom:0px;" >
+
+>
+    </div>
+
+    <script>
+
+        const cursor = document.querySelector('.cursor');
+
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+e.pageY+"px; left: " +e.pageX+"px;")
+        })
+
+    </script>
+</body>
+</html>

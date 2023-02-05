@@ -1,0 +1,20 @@
+ body {
+    margin: 0;
+    height: 100vh;
+    //cursor: url('../images/logo.png'), auto;
+    // cursor: cell;
+    background: darkgray;
+ }
+
+ .cursor{
+    
+    width:20px;
+    height:20px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius:50%;
+    position:absolute;
+
+ }
+
+
+
